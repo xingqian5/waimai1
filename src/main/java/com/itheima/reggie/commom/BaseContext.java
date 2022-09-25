@@ -8,4 +8,5 @@ public class BaseContext {
     public  static  Long get(){
        return threadLocal.get();
     }
+    int a;
 }
