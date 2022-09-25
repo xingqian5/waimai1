@@ -15,6 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/category")
 public class CategoryController {
+    int a;
     @Autowired
     private  CategoryService categoryService;
     @PostMapping
