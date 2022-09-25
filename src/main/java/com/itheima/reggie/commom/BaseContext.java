@@ -9,4 +9,5 @@ public class BaseContext {
        return threadLocal.get();
     }
     int a;
+    int b;
 }
