@@ -26,7 +26,7 @@ public class CategoryController {
         System.out.println("91");
         System.out.println("6");
         System.out.println("1");
-        System.out.println("13");
+        System.out.println("131");
         return R.success("新增分类成功1");
         
     }
