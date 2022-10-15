@@ -23,8 +23,10 @@ public class CategoryController {
     public R<String> save(@RequestBody Category category){
         log.info("category:{}",category);
         categoryService.save(category);
-        System.out.println("92");
+        System.out.println("91");
         System.out.println("6");
+        System.out.println("1");
+
         return R.success("新增分类成功1");
         
     }
