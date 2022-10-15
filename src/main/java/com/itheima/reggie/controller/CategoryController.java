@@ -23,8 +23,9 @@ public class CategoryController {
     public R<String> save(@RequestBody Category category){
         log.info("category:{}",category);
         categoryService.save(category);
-        System.out.println("4");
-        return R.success("新增分类成功2");
+        System.out.println("2");
+        System.out.println("3");
+        return R.success("新增分类成功1");
         
     }
     @GetMapping("/page")
